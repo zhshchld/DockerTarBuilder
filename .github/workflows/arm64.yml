@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: '请填写docker镜像名称 多个用英文逗号分开'
+        description: 'filebrowser','verysync','resilio','tvheadend','oscam','syncthing','n1_verysync','linuxserver_resilio-sync'
         required: true
         default: 'alpine:latest,ubuntu:latest'  # 设置默认的 Docker 镜像列表
 
